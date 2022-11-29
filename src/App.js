@@ -4,7 +4,7 @@ import Employee from './components/Employee';
 function App() {
   return (
     <Employee 
-        icon={require("./assets/Rip.jpg")} 
+        icon={require("./assets/Main_icon.png")} 
         profilePhoto={require("../src/assets/profile_photo.jpg")}
         sweets={32}
     />

@@ -41,13 +41,13 @@ function Employee(props) {
                         </div> 
                         <div className='profile-button' onClick={()=>{}}>
                             Рабочий состав
-                        </div> 
+                        </div>
+                        <div className='sweets'>
+                    <div> Количество пряников: {props.sweets} </div>
+                        <div className='underline-sweets'></div>
+                        <div className='profile-button'>Потратить пряники</div>
+                    </div> 
                 </div>
-            <div className='sweets'>
-                <div> Количество пряников: {props.sweets} </div>
-                <div className='underline-sweets'></div>
-                <div className='profile-button'>Потратить пряники</div>
-            </div>
         </div>
 
         <div className='to-do-list'>
